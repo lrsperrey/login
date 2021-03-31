@@ -10,11 +10,15 @@
 <body>
     
     <div class="flex-container">
-        <h1 class="heading">LOGIN</h1>  
-    <form action="/login" method="post">
-        <label for="name">Username or E-mail</label><br><br>
+        <h1>
+            <img src="./images/HackAugusta_logo.png" alt="Hack Augusta Logo" class="header">
+        </h1>
+        <h2 class="heading">LOGIN</h2>  
+       
+    <form action="/login" method="post" class="form">
+        <label for="name">Username or E-mail</label><br>
         <input type="text" id="name" name="name"><br><br>
-        <label for="pwd">Password</label><br><br>
+        <label for="pwd">Password</label><br>
         <input type="password" id="pwd" name="pwd" minlength="8"><br><br>
         <input type="submit" value="Login">
       </form> 

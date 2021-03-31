@@ -1,0 +1,25 @@
+body {
+    background-image: url("./images/login-background.jpg");
+    background-repeat: no-repeat;
+    color: black;
+}
+
+div {
+    width: 454px;
+    height: 680px;
+    padding: auto;
+    border: 1px solid black;
+}
+.flex-container {
+    display: flex;
+    background-color: #ffffff;
+    flex-direction:column;
+    box-sizing: content-box;
+    
+}
+
+.heading{
+    font-size: 36px;
+    font-family: 'Ubuntu', sans-serif;
+
+}
